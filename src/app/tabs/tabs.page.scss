@@ -1,1 +1,19 @@
+ion-tab-button img {
+    width: 28px;
+    height: 28px;
+}
+  
+ion-tab-button ion-label {
+    font-size: 14px;
+}
+  
+ion-tab-button {
+    background-color: rgba(0, 128, 128, 0.2); /* Warna #008080 dengan opacity 0.2 */
+    --color-selected: #008080;
+    --color: #000000;
+    padding: 0 12px;
+}
 
+ion-tab-button[aria-selected="true"] {
+    font-weight: bold;
+}
