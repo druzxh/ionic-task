@@ -1,0 +1,48 @@
+/* Kontainer Utama */
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 16px;
+}
+
+/* Judul */
+.info-title {
+    font-family: 'Amatic SC';
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #008080;
+    text-align: center;
+}
+
+/* Paragraf */
+.info-paragraph {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+    color: #000000;
+}
+
+/* Ukuran Desktop */
+@media (min-width: 1024px) {
+    .info-title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .info-paragraph {
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .info-content {
+        padding: 40px;
+    }
+}
